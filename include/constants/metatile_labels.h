@@ -2,7 +2,7 @@
 #define GUARD_METATILE_LABELS_H
 
 // gTileset_BattleArena
-#define METATILE_BattleArena_Door  0x21B
+#define METATILE_BattleArena_Door  0x29B
 
 // gTileset_BattleDome
 #define METATILE_BattleDome_Door_Corridor       0x25E
@@ -48,7 +48,6 @@
 #define METATILE_BattlePike_Curtain_Stage0_Tile4  0x2D9
 #define METATILE_BattlePike_Curtain_Stage0_Tile5  0x2DA
 #define METATILE_BattlePike_Curtain_Stage0_Tile6  0x2DB
-
 #define METATILE_BattlePike_Curtain_Stage1_Tile0  0x2AA
 #define METATILE_BattlePike_Curtain_Stage1_Tile1  0x2B1
 #define METATILE_BattlePike_Curtain_Stage1_Tile2  0x2B2
@@ -56,7 +55,6 @@
 #define METATILE_BattlePike_Curtain_Stage1_Tile4  0x2B9
 #define METATILE_BattlePike_Curtain_Stage1_Tile5  0x2BA
 #define METATILE_BattlePike_Curtain_Stage1_Tile6  0x2BB
-
 #define METATILE_BattlePike_Curtain_Stage2_Tile0  0x28A
 #define METATILE_BattlePike_Curtain_Stage2_Tile1  0x291
 #define METATILE_BattlePike_Curtain_Stage2_Tile2  0x292
@@ -64,7 +62,6 @@
 #define METATILE_BattlePike_Curtain_Stage2_Tile4  0x299
 #define METATILE_BattlePike_Curtain_Stage2_Tile5  0x29A
 #define METATILE_BattlePike_Curtain_Stage2_Tile6  0x29B
-
 #define METATILE_BattlePike_Curtain_Stage3_Tile0  0x32B
 #define METATILE_BattlePike_Curtain_Stage3_Tile1  0x332
 #define METATILE_BattlePike_Curtain_Stage3_Tile2  0x333
