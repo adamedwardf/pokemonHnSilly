@@ -1662,7 +1662,7 @@ const u32 gTilesetTiles_BattlePyramid_New[] = INCBIN_U32("data/tilesets/secondar
 const u16 ALIGNED(4) gTilesetPalettes_BattlePyramid_New[][16] =
 {
 	INCBIN_U16("data/tilesets/primary/building/palettes/00.gbapal"),
-	INCBIN_U16("data/tilesets/secondary/battle_pyramid/palettes/01.gbapal"),
+	INCBIN_U16("data/tilesets/primary/building/palettes/01.gbapal"),
 	INCBIN_U16("data/tilesets/secondary/battle_pyramid/palettes/02.gbapal"),
 	INCBIN_U16("data/tilesets/secondary/battle_pyramid/palettes/03.gbapal"),
 	INCBIN_U16("data/tilesets/secondary/battle_pyramid/palettes/04.gbapal"),
