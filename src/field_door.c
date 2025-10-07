@@ -6,6 +6,7 @@
 #include "task.h"
 #include "constants/songs.h"
 #include "constants/metatile_labels.h"
+#include "constants/region_map_sections.h"
 
 
 enum {
@@ -426,22 +427,44 @@ static void DrawClosedDoorTiles(const struct DoorGraphics *gfx, int x, int y)
 //       animation is played, they will be overwritten.
 #define DOOR_TILE_START (434)//(NUM_TILES_TOTAL - 8)
 
+//Door anims have a conflict with water animations, as they use the same space (around 432 - 434)
+//When in the BF, the door anims use a different allocation. Anywhere else, default.
+#define DOOR_TILE_START_FRONTIER 1000
+
 static void CopyDoorTilesToVram(const u8 *tiles)
 {
-    CpuFastCopy(tiles, (void *)(VRAM + TILE_OFFSET_4BPP(DOOR_TILE_START)), 8 * TILE_SIZE_4BPP);
+    if (gMapHeader.regionMapSectionId != MAPSEC_BATTLE_FRONTIER) 
+        CpuFastCopy(tiles, (void *)(VRAM + TILE_OFFSET_4BPP(DOOR_TILE_START)), 8 * TILE_SIZE_4BPP);
+    else
+        CpuFastCopy(tiles, (void *)(VRAM + TILE_OFFSET_4BPP(DOOR_TILE_START_FRONTIER)), 8 * TILE_SIZE_4BPP);
 }
 
 static void DrawCurrentDoorAnimFrame(const struct DoorGraphics *gfx, int x, int y, const u8 *paletteNums)
 {
     u16 tiles[8];
-    if (gfx->size == DOOR_SIZE_1x1)
-        BuildDoorTiles(tiles, DOOR_TILE_START, paletteNums);
+    if (gMapHeader.regionMapSectionId != MAPSEC_BATTLE_FRONTIER) 
+    {
+        if (gfx->size == DOOR_SIZE_1x1)
+            BuildDoorTiles(tiles, DOOR_TILE_START, paletteNums);
 
+        else
+        {
+            BuildDoorTiles(tiles, DOOR_TILE_START, paletteNums);
+            DrawDoorMetatileAt(x, y - 1, tiles);
+            BuildDoorTiles(tiles, DOOR_TILE_START + 4, &paletteNums[4]);
+        }
+    }
     else
     {
-        BuildDoorTiles(tiles, DOOR_TILE_START, paletteNums);
-        DrawDoorMetatileAt(x, y - 1, tiles);
-        BuildDoorTiles(tiles, DOOR_TILE_START + 4, &paletteNums[4]);
+        if (gfx->size == DOOR_SIZE_1x1)
+            BuildDoorTiles(tiles, DOOR_TILE_START_FRONTIER, paletteNums);
+
+        else
+        {
+            BuildDoorTiles(tiles, DOOR_TILE_START_FRONTIER, paletteNums);
+            DrawDoorMetatileAt(x, y - 1, tiles);
+            BuildDoorTiles(tiles, DOOR_TILE_START_FRONTIER + 4, &paletteNums[4]);
+        }
     }
 
     DrawDoorMetatileAt(x, y, tiles);
