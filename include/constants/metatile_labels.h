@@ -25,10 +25,10 @@
 #define METATILE_BattleFrontier_Elevator_Top2            0x32A
 
 // gTileset_BattleFrontierOutsideEast
-#define METATILE_BattleFrontierOutsideEast_Door              0x3FC
-#define METATILE_BattleFrontierOutsideEast_Door_BattleArena  0x292
-#define METATILE_BattleFrontierOutsideEast_Door_BattleTower  0x329
-#define METATILE_BattleFrontierOutsideEast_Door_Sliding      0x396
+#define METATILE_BattleFrontierOutsideEast_Door              0x3F3
+#define METATILE_BattleFrontierOutsideEast_Door_BattleArena  0x311
+#define METATILE_BattleFrontierOutsideEast_Door_BattleTower  0x3A9
+#define METATILE_BattleFrontierOutsideEast_Door_Sliding      0x19E
 
 // gTileset_BattleFrontierOutsideWest
 #define METATILE_BattleFrontierOutsideWest_Door                0x38D
