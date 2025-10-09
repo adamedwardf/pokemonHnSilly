@@ -19376,6 +19376,13 @@ static const struct TrainerMonItemCustomMoves sParty_Whitney[] = { //LeaderGroup
     {
     .iv = 20,
     .lvl = 20,
+    .species = SPECIES_JIGGLYPUFF,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HEADBUTT, MOVE_CHARM, MOVE_SWEET_KISS, MOVE_METRONOME}
+    },
+    {
+    .iv = 20,
+    .lvl = 20,
     .species = SPECIES_TEDDIURSA,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_FURY_SWIPES, MOVE_FAKE_TEARS, MOVE_LICK, MOVE_MUD_SLAP}
@@ -19429,14 +19436,28 @@ static const struct TrainerMonItemCustomMoves sParty_Whitney2[] = { //LeaderGrou
     {
     .iv = 100,
     .lvl = 65,
-    .species = SPECIES_LICKILICKY,
+    .species = SPECIES_SNORLAX,
     .heldItem = ITEM_SILK_SCARF,
-    .moves = {MOVE_DEFENSE_CURL, MOVE_ROLLOUT, MOVE_FOCUS_BLAST, MOVE_SUPERSONIC}
+    .moves = {MOVE_BODY_SLAM, MOVE_YAWN, MOVE_REST, MOVE_SLEEP_TALK}
     },
 };
 
 
 static const struct TrainerMonItemCustomMoves sParty_Morty[] = { //LeaderGroup
+    {
+    .iv = 100,
+    .lvl = 24,
+    .species = SPECIES_HAUNTER,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HYPNOSIS, MOVE_NIGHTMARE, MOVE_CURSE, MOVE_NIGHT_SHADE}
+    },
+    {
+    .iv = 100,
+    .lvl = 24,
+    .species = SPECIES_HAUNTER,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_HYPNOSIS, MOVE_NIGHTMARE, MOVE_CURSE, MOVE_NIGHT_SHADE}
+    },
     {
     .iv = 100,
     .lvl = 24,
