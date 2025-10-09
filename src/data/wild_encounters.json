@@ -34958,12 +34958,12 @@
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_CHARMANDER"
               },
               {
                 "min_level": 2,
                 "max_level": 2,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_CHARMANDER"
               },
               {
                 "min_level": 2,
@@ -34973,17 +34973,17 @@
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_BAGON"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_BAGON"
               },
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_GEODUDE"
+                "species": "SPECIES_CHARMANDER"
               },
               {
                 "min_level": 2,
@@ -34993,7 +34993,7 @@
               {
                 "min_level": 3,
                 "max_level": 4,
-                "species": "SPECIES_ZUBAT"
+                "species": "SPECIES_BAGON"
               },
               {
                 "min_level": 2,
