@@ -19188,6 +19188,13 @@ static const struct TrainerMonItemCustomMoves sParty_Falkner[] = { //LeaderGroup
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_TACKLE, MOVE_MUD_SLAP, MOVE_GROWL, MOVE_PECK}
     },
+    {
+    .iv = 100,
+    .lvl = 9,
+    .species = SPECIES_SPEAROW,
+    .heldItem = ITEM_SITRUS_BERRY,
+    .moves = {MOVE_TACKLE, MOVE_MUD_SLAP, MOVE_GROWL, MOVE_PECK}
+    },
 };
 
 
@@ -20112,42 +20119,42 @@ static const struct TrainerMonItemCustomMoves sParty_Misty[] = { //LeaderGroup
 static const struct TrainerMonItemCustomMoves sParty_LtSurge[] = { //LeaderGroup
     {
     .iv = 200,
-    .lvl = 57,
+    .lvl = 61,
     .species = SPECIES_ELECTRODE,
     .heldItem = ITEM_FOCUS_BAND,
     .moves = {MOVE_THUNDER, MOVE_RAIN_DANCE, MOVE_THUNDER_WAVE, MOVE_EXPLOSION}
     },
     {
     .iv = 200,
-    .lvl = 59,
+    .lvl = 60,
     .species = SPECIES_MAGNEZONE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_THUNDER, MOVE_REFLECT, MOVE_RAIN_DANCE, MOVE_DOUBLE_EDGE}
     },
     {
     .iv = 200,
-    .lvl = 58,
+    .lvl = 60,
     .species = SPECIES_LANTURN,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_SURF, MOVE_THUNDERBOLT, MOVE_ICE_BEAM, MOVE_CONFUSE_RAY}
     },
     {
     .iv = 200,
-    .lvl = 58,
+    .lvl = 60,
     .species = SPECIES_MANECTRIC,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_CHARGE, MOVE_THUNDER, MOVE_THUNDER_WAVE, MOVE_CRUNCH}
     },
     {
     .iv = 200,
-    .lvl = 59,
+    .lvl = 60,
     .species = SPECIES_ELECTIVIRE,
     .heldItem = ITEM_SCOPE_LENS,
     .moves = {MOVE_THUNDERBOLT, MOVE_FIRE_PUNCH, MOVE_ICE_PUNCH, MOVE_SUBMISSION}
     },
     {
     .iv = 200,
-    .lvl = 60,
+    .lvl = 65,
     .species = SPECIES_RAICHU,
     .heldItem = ITEM_MAGNET,
     .moves = {MOVE_THUNDER, MOVE_RAIN_DANCE, MOVE_BODY_SLAM, MOVE_SURF}
