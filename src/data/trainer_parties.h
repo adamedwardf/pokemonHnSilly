@@ -20706,10 +20706,10 @@ static const struct TrainerMonItemCustomMoves sParty_Karen[] = { //EliteFourGrou
     },
     {
     .iv = 255,
-    .lvl = 53,
-    .species = SPECIES_VILEPLUME,
+    .lvl = 56,
+    .species = SPECIES_TYRANITAR,
     .heldItem = ITEM_LEFTOVERS,
-    .moves = {MOVE_SLEEP_POWDER, MOVE_GIGA_DRAIN, MOVE_LEECH_SEED, MOVE_SUBSTITUTE}
+    .moves = {MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_ROCK_SLIDE, MOVE_HYPER_BEAM}
     },
     {
     .iv = 255,
@@ -20720,7 +20720,7 @@ static const struct TrainerMonItemCustomMoves sParty_Karen[] = { //EliteFourGrou
     },
     {
     .iv = 255,
-    .lvl = 55,
+    .lvl = 56,
     .species = SPECIES_HOUNDOOM,
     .heldItem = ITEM_BLACK_GLASSES,
     .moves = {MOVE_FLAMETHROWER, MOVE_CRUNCH, MOVE_IRON_TAIL, MOVE_REVERSAL}
@@ -20738,10 +20738,10 @@ static const struct TrainerMonItemCustomMoves sParty_Karen2[] = { //EliteFourGro
     },
     {
     .iv = 255,
-    .lvl = 67,
-    .species = SPECIES_WEAVILE,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_FAINT_ATTACK, MOVE_METAL_CLAW, MOVE_BEAT_UP, MOVE_BLIZZARD}
+    .lvl = 70,
+    .species = SPECIES_TYRANITAR,
+    .heldItem = ITEM_LEFTOVERS,
+    .moves = {MOVE_EARTHQUAKE, MOVE_CRUNCH, MOVE_ROCK_SLIDE, MOVE_HYPER_BEAM}
     },
     {
     .iv = 255,
@@ -20766,7 +20766,7 @@ static const struct TrainerMonItemCustomMoves sParty_Karen2[] = { //EliteFourGro
     },
     {
     .iv = 255,
-    .lvl = 69,
+    .lvl = 70,
     .species = SPECIES_HOUNDOOM,
     .heldItem = ITEM_CHARCOAL,
     .moves = {MOVE_FLAMETHROWER, MOVE_CRUNCH, MOVE_IRON_TAIL, MOVE_HIDDEN_POWER}
