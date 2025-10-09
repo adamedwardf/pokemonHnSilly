@@ -20786,9 +20786,9 @@ static const struct TrainerMonItemCustomMoves sParty_Koga[] = { //EliteFourGroup
     {
     .iv = 255,
     .lvl = 51,
-    .species = SPECIES_QWILFISH,
-    .heldItem = ITEM_NONE,
-    .moves = {MOVE_SURF, MOVE_TOXIC, MOVE_PROTECT, MOVE_SLUDGE_BOMB}
+    .species = SPECIES_NIDOKING,
+    .heldItem = ITEM_QUICK_CLAW,
+    .moves = {MOVE_EARTHQUAKE, MOVE_BODY_SLAM, MOVE_MEGAHORN, MOVE_CRUNCH}
     },
     {
     .iv = 255,
