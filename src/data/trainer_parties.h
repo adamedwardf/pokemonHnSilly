@@ -21686,28 +21686,28 @@ static const struct TrainerMonItemCustomMoves sParty_Red2[] = { //RedGroup
     },
     {
     .iv = 255,
-    .lvl = 75,
+    .lvl = 79,
     .species = SPECIES_SNORLAX,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_AMNESIA, MOVE_CURSE, MOVE_BODY_SLAM, MOVE_EARTHQUAKE}
     },
     {
     .iv = 255,
-    .lvl = 77,
+    .lvl = 81,
     .species = SPECIES_CHARIZARD,
     .heldItem = ITEM_CHARCOAL,
     .moves = {MOVE_FIRE_BLAST, MOVE_WING_ATTACK, MOVE_OUTRAGE, MOVE_STEEL_WING}
     },
     {
     .iv = 255,
-    .lvl = 77,
+    .lvl = 81,
     .species = SPECIES_VENUSAUR,
     .heldItem = ITEM_MIRACLE_SEED,
     .moves = {MOVE_GIGA_DRAIN, MOVE_BODY_SLAM, MOVE_SLEEP_POWDER, MOVE_LEECH_SEED}
     },
     {
     .iv = 255,
-    .lvl = 77,
+    .lvl = 81,
     .species = SPECIES_BLASTOISE,
     .heldItem = ITEM_QUICK_CLAW,
     .moves = {MOVE_ICE_BEAM, MOVE_HYDRO_PUMP, MOVE_BODY_SLAM, MOVE_EARTHQUAKE}
@@ -21715,9 +21715,9 @@ static const struct TrainerMonItemCustomMoves sParty_Red2[] = { //RedGroup
     {
     .iv = 255,
     .lvl = 80,
-    .species = SPECIES_ESPEON,
+    .species = SPECIES_MEWTWO,
     .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_PSYCHIC, MOVE_SHADOW_BALL, MOVE_HIDDEN_POWER, MOVE_MORNING_SUN}
+    .moves = {MOVE_PSYCHIC, MOVE_RECOVER, MOVE_SUBMISSION, MOVE_FLAMETHROWER}
     },
 };
 
