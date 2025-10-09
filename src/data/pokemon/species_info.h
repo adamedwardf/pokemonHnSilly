@@ -4584,12 +4584,12 @@ const struct SpeciesInfo gSpeciesInfo[] =
 
     [SPECIES_MEW] =
     {
-        .baseHP        = 100,
-        .baseAttack    = 100,
-        .baseDefense   = 100,
-        .baseSpeed     = 100,
-        .baseSpAttack  = 100,
-        .baseSpDefense = 100,
+        .baseHP        = 150,
+        .baseAttack    = 150,
+        .baseDefense   = 150,
+        .baseSpeed     = 150,
+        .baseSpAttack  = 150,
+        .baseSpDefense = 150,
         .types = { TYPE_PSYCHIC, TYPE_PSYCHIC },
         .catchRate = 2,
         .expYield = 64,
