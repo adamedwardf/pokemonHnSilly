@@ -20522,10 +20522,10 @@ static const struct TrainerMonItemCustomMoves sParty_Blue2[] = { //LeaderGroup U
 static const struct TrainerMonItemCustomMoves sParty_Will[] = { //EliteFourGroup
     {
     .iv = 255,
-    .lvl = 48,
-    .species = SPECIES_GIRAFARIG,
+    .lvl = 50,
+    .species = SPECIES_GARDEVOIR,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_PSYCHIC, MOVE_ROCK_SMASH, MOVE_AGILITY, MOVE_BATON_PASS}
+    .moves = {MOVE_PSYCHIC, MOVE_CALM_MIND, MOVE_REFLECT, MOVE_RECOVER}
     },
     {
     .iv = 255,
@@ -20543,10 +20543,10 @@ static const struct TrainerMonItemCustomMoves sParty_Will[] = { //EliteFourGroup
     },
     {
     .iv = 255,
-    .lvl = 49,
-    .species = SPECIES_SLOWBRO,
+    .lvl = 50,
+    .species = SPECIES_ALAKAZAM,
     .heldItem = ITEM_QUICK_CLAW,
-    .moves = {MOVE_CURSE, MOVE_ROCK_SMASH, MOVE_BODY_SLAM, MOVE_PSYCHIC}
+    .moves = {MOVE_PSYCHIC, MOVE_RECOVER, MOVE_SHOCK_WAVE, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
@@ -20561,17 +20561,17 @@ static const struct TrainerMonItemCustomMoves sParty_Will[] = { //EliteFourGroup
 static const struct TrainerMonItemCustomMoves sParty_Will2[] = { //EliteFourGroup
     {
     .iv = 255,
-    .lvl = 66,
+    .lvl = 68,
     .species = SPECIES_GARDEVOIR,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_PSYCHIC, MOVE_HYPER_VOICE, MOVE_MOONBLAST, MOVE_REFLECT}
     },
     {
     .iv = 255,
-    .lvl = 67,
-    .species = SPECIES_JYNX,
+    .lvl = 68,
+    .species = SPECIES_ALAKAZAM,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_BLIZZARD, MOVE_PSYCHIC, MOVE_PERISH_SONG, MOVE_SING}
+    .moves = {MOVE_PSYCHIC, MOVE_RECOVER, MOVE_SHOCK_WAVE, MOVE_CALM_MIND}
     },
     {
     .iv = 255,
@@ -20583,9 +20583,9 @@ static const struct TrainerMonItemCustomMoves sParty_Will2[] = { //EliteFourGrou
     {
     .iv = 255,
     .lvl = 67,
-    .species = SPECIES_GRUMPIG,
+    .species = SPECIES_ESPEON,
     .heldItem = ITEM_NONE,
-    .moves = {MOVE_TEETER_DANCE, MOVE_POWER_GEM, MOVE_SNORE, MOVE_REST}
+    .moves = {MOVE_PSYCHIC, MOVE_RECOVER, MOVE_SHADOW_BALL, MOVE_REFLECT}
     },
     {
     .iv = 255,
