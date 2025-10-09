@@ -19297,6 +19297,20 @@ static const struct TrainerMonItemCustomMoves sParty_Bugsy[] = { //LeaderGroup
     },
     {
     .iv = 100,
+    .lvl = 15,
+    .species = SPECIES_BUTTERFREE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_TACKLE, MOVE_STRING_SHOT, MOVE_SUPERSONIC, MOVE_CONFUSION}
+    },
+    {
+    .iv = 100,
+    .lvl = 15,
+    .species = SPECIES_BEEDRILL,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_POISON_STING, MOVE_STRING_SHOT, MOVE_FURY_CUTTER, MOVE_FURY_ATTACK}
+    },
+    {
+    .iv = 100,
     .lvl = 16,
     .species = SPECIES_SCYTHER,
     .heldItem = ITEM_BERRY_JUICE,
