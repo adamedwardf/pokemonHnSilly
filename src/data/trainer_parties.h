@@ -20871,9 +20871,9 @@ static const struct TrainerMonItemCustomMoves sParty_Lance[] = { //EliteFourGrou
     {
     .iv = 255,
     .lvl = 55,
-    .species = SPECIES_DRAGONITE,
-    .heldItem = ITEM_SITRUS_BERRY,
-    .moves = {MOVE_BLIZZARD, MOVE_FIRE_BLAST, MOVE_THUNDER, MOVE_EXTREME_SPEED}
+    .species = SPECIES_SALAMENCE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_DRAGON_CLAW, MOVE_AIR_SLASH, MOVE_DOUBLE_EDGE, MOVE_THUNDERBOLT}
     },
     {
     .iv = 255,
@@ -20909,35 +20909,35 @@ static const struct TrainerMonItemCustomMoves sParty_Lance[] = { //EliteFourGrou
 static const struct TrainerMonItemCustomMoves sParty_Lance2[] = { //EliteFourGroup
     {
     .iv = 255,
-    .lvl = 69,
+    .lvl = 72,
     .species = SPECIES_SALAMENCE,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_DRAGON_CLAW, MOVE_AIR_SLASH, MOVE_DOUBLE_EDGE, MOVE_THUNDERBOLT}
     },
     {
     .iv = 255,
-    .lvl = 68,
+    .lvl = 72,
     .species = SPECIES_DRAGONITE,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_BLIZZARD, MOVE_EXTREME_SPEED, MOVE_THUNDER, MOVE_HYPER_BEAM}
     },
     {
     .iv = 255,
-    .lvl = 69,
+    .lvl = 71,
     .species = SPECIES_GYARADOS,
     .heldItem = ITEM_QUICK_CLAW,
     .moves = {MOVE_HIDDEN_POWER, MOVE_HYPER_BEAM, MOVE_HYDRO_PUMP, MOVE_FIRE_BLAST}
     },
     {
     .iv = 255,
-    .lvl = 68,
+    .lvl = 74,
     .species = SPECIES_CHARIZARD,
     .heldItem = ITEM_LEFTOVERS,
     .moves = {MOVE_FIRE_BLAST, MOVE_CRUNCH, MOVE_EARTHQUAKE, MOVE_SWORDS_DANCE}
     },
     {
     .iv = 255,
-    .lvl = 69,
+    .lvl = 70,
     .species = SPECIES_AERODACTYL,
     .heldItem = ITEM_SCOPE_LENS,
     .moves = {MOVE_SKY_ATTACK, MOVE_ROCK_SLIDE, MOVE_EARTHQUAKE, MOVE_IRON_TAIL}
