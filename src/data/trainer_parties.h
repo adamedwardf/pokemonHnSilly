@@ -19637,6 +19637,13 @@ static const struct TrainerMonItemCustomMoves sParty_Pryce_3[] = { //LeaderGroup
     },
     {
     .iv = 200,
+    .lvl = 37,
+    .species = SPECIES_GLALIE,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_ICY_WIND, MOVE_BITE, MOVE_PROTECT, MOVE_NIGHT_SHADE}
+    },
+    {
+    .iv = 200,
     .lvl = 38,
     .species = SPECIES_MAMOSWINE,
     .heldItem = ITEM_SITRUS_BERRY,
