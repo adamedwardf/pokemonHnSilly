@@ -18338,18 +18338,33 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Neal[] = { //SageGroup
 static const struct TrainerMonNoItemDefaultMoves sParty_Li[] = { //SageGroup
     {
     .iv = 0,
-    .lvl = 7,
+    .lvl = 9,
     .species = SPECIES_ODDISH,
     },
     {
     .iv = 0,
-    .lvl = 8,
+    .lvl = 9,
     .species = SPECIES_SUNKERN,
     },
     {
     .iv = 0,
     .lvl = 9,
     .species = SPECIES_BELLSPROUT,
+    },
+    {
+    .iv = 0,
+    .lvl = 11,
+    .species = SPECIES_CHIKORITA,
+    },
+    {
+    .iv = 0,
+    .lvl = 11,
+    .species = SPECIES_TREECKO,
+    },
+    {
+    .iv = 0,
+    .lvl = 11,
+    .species = SPECIES_BULBASAUR,
     },
 };
 
