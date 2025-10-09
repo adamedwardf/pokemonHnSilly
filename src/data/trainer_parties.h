@@ -19176,24 +19176,45 @@ static const struct TrainerMonNoItemDefaultMoves sParty_Grunt33[] = { //TeamRock
 static const struct TrainerMonItemCustomMoves sParty_Falkner[] = { //LeaderGroup
     {
     .iv = 100,
-    .lvl = 8,
+    .lvl = 10,
     .species = SPECIES_PIDGEY,
     .heldItem = ITEM_NONE,
     .moves = {MOVE_TACKLE, MOVE_MUD_SLAP, MOVE_QUICK_ATTACK, MOVE_NONE}
     },
     {
     .iv = 100,
-    .lvl = 11,
+    .lvl = 12,
     .species = SPECIES_NOCTOWL,
     .heldItem = ITEM_SITRUS_BERRY,
     .moves = {MOVE_TACKLE, MOVE_MUD_SLAP, MOVE_GROWL, MOVE_PECK}
     },
     {
     .iv = 100,
-    .lvl = 9,
+    .lvl = 10,
     .species = SPECIES_SPEAROW,
-    .heldItem = ITEM_SITRUS_BERRY,
+    .heldItem = ITEM_NONE,
     .moves = {MOVE_TACKLE, MOVE_MUD_SLAP, MOVE_GROWL, MOVE_PECK}
+    },
+    {
+    .iv = 100,
+    .lvl = 10,
+    .species = SPECIES_TAILLOW,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_TACKLE, MOVE_MUD_SLAP, MOVE_GROWL, MOVE_PECK}
+    },
+    {
+    .iv = 100,
+    .lvl = 10,
+    .species = SPECIES_MURKROW,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_TACKLE, MOVE_MUD_SLAP, MOVE_GROWL, MOVE_PECK}
+    },
+    {
+    .iv = 100,
+    .lvl = 11,
+    .species = SPECIES_WINGULL,
+    .heldItem = ITEM_NONE,
+    .moves = {MOVE_PECK, MOVE_MUD_SLAP, MOVE_WATER_GUN, MOVE_NONE}
     },
 };
 
