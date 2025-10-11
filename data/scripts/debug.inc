@@ -73,11 +73,9 @@ Debug_Script_2::
 	end
 
 Debug_Script_3::
-	setflag FLAG_DEFEATED_RED
 	end
 
 Debug_Script_4::
-	clearflag FLAG_DEFEATED_RED
 	end
 
 Debug_Script_5::
