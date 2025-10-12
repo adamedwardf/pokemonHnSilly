@@ -4509,7 +4509,7 @@ bool16 TryChangeDeoxysForm(void)
         SetMonData(&gPlayerParty[gSpecialVar_0x8004], MON_DATA_SPECIES, &targetSpecies);
         CalculateMonStats(&gPlayerParty[gSpecialVar_0x8004]);
         gSpecialVar_Result = TRUE;
-        return FALSE;
+        return TRUE;
     }
 
     gSpecialVar_Result = FALSE;
