@@ -207,6 +207,7 @@ u32 GenerateShinyPersonalityForOtId(u32 otId)
 void CreateShinyScriptedMon(u16 species, u8 level, u16 item)
 {
     u8 heldItem[2];
+    SetNuzlockeChecks();
     ZeroEnemyPartyMons();
 
     u32 otId = gSaveBlock2Ptr->playerTrainerId[0]
