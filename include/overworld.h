@@ -181,9 +181,5 @@ bool32 IsSendingKeysOverCable(void);
 void ClearLinkPlayerObjectEvents(void);
 u8 NuzlockeGetCurrentRegionMapSectionId(void); //tx_randomizer_and_challenges
 
-enum {
-    REGION_JOHTO,
-    REGION_KANTO
-};
 
 #endif // GUARD_OVERWORLD_H

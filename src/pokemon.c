@@ -10471,13 +10471,7 @@ u16 GetBattleBGM(void)
                 else
                     return MUS_HG_VS_GYM_LEADER;
             }
-            if (gMapHeader.region == REGION_KANTO) //BGM by region
-				return MUS_HG_VS_GYM_LEADER_KANTO;
-			}
-			else
-			{
-				return MUS_HG_VS_GYM_LEADER;
-			}
+            return MUS_HG_VS_GYM_LEADER;
         case TRAINER_CLASS_CHAMPION:
             if (gSaveBlock2Ptr->optionsTrainerBattleMusic == 0)
                 return MUS_VS_CHAMPION;
@@ -10636,13 +10630,7 @@ u16 GetBattleBGM(void)
                     else
                         return MUS_VS_TRAINER;
                 }
-                if (gMapHeader.region == REGION_KANTO) //BGM by region
-					return MUS_HG_VS_TRAINER_KANTO;
-				}
-				else
-				{
-					return MUS_HG_VS_TRAINER;
-				}
+                return MUS_HG_VS_TRAINER;
             }
         }
     }
@@ -10670,13 +10658,7 @@ u16 GetBattleBGM(void)
             else
                 return MUS_VS_WILD;
         }
-        if (gMapHeader.region == REGION_KANTO) //BGM by region
-			return MUS_HG_VS_WILD_KANTO;
-		}
-		else
-		{
-			return MUS_HG_VS_GYM_LEADER;
-		}
+        return MUS_HG_VS_WILD;
 }
 
 void PlayBattleBGM(void)
