@@ -1,5 +1,10 @@
 TrainerHill_Courtyard_MapScripts::
+map_script MAP_SCRIPT_ON_TRANSITION, TrainerHill_Courtyard_OnTransition
 	.byte 0
+
+TrainerHill_Courtyard_OnTransition::
+	setvar VAR_TRAINER_HILL_IS_ACTIVE, 0
+	end
 
 TrainerHill_Courtyard_EventScript_BattleTowerSign::
 	lock
