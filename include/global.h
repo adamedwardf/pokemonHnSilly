@@ -1108,7 +1108,7 @@ struct SaveBlock1
     /*0x3D5A*/ u8 unused_3D5A[10];
     /*0x3D64*/ struct TrainerHillSave trainerHill;
     /*0x3D70*/ struct WaldaPhrase waldaPhrase;
-    /*0x3D88*/ u8 NuzlockeEncounterFlags[9]; //tx_randomizer_and_challenges
+    /*0x3D88*/ u8 unused_NuzlockeEncounterFlags[9]; //Old nuzlocke encounter list that became to small. Should be [12] since HnS adds new encounter zones
         u8 tx_Random_Chaos:1;
         u8 tx_Random_WildPokemon:1;
         u8 tx_Random_Similar:1;
@@ -1176,6 +1176,7 @@ struct SaveBlock1
         u8 tx_Features_FrontierBans:1;
         u8 tx_Difficulty_HardExp:1;
         u8 tx_Mode_TypeEffectiveness:1;
+        u8 NuzlockeEncounterFlags[12]; //tx_randomizer_and_challenges
 };
 
 extern struct SaveBlock1* gSaveBlock1Ptr;
