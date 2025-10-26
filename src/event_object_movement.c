@@ -2741,13 +2741,13 @@ static void SpawnLightSprite(s16 x, s16 y, s16 camX, s16 camY, u32 lightType) {
         sprite->oam.objMode = 1; // BLEND
         break;
     case 3: // Street lamps
-        sprite->centerToCornerVecX = -(32 >> 1);
-        sprite->centerToCornerVecY = -(32 >> 1);
+        sprite->centerToCornerVecX = -(16 >> 1);
+        sprite->centerToCornerVecY = -(16 >> 1);
         sprite->oam.priority = 1;
         sprite->oam.objMode = 1; // BLEND
         sprite->oam.affineMode = ST_OAM_AFFINE_NORMAL;
         sprite->x += 8;
-        sprite->y += 22 + sprite->centerToCornerVecY;
+        sprite->y += 7 + sprite->centerToCornerVecY;
         break;
     case 4: // Lighthouse
         sprite->centerToCornerVecX = -(32 >> 1);
