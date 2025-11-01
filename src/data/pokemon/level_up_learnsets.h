@@ -6275,6 +6275,7 @@ static const u16 sClamperlLevelUpLearnset[] = {
     LEVEL_UP_MOVE(1, MOVE_WATER_GUN),
     LEVEL_UP_MOVE(1, MOVE_WHIRLPOOL),
     LEVEL_UP_MOVE(1, MOVE_IRON_DEFENSE),
+    LEVEL_UP_MOVE(5, MOVE_RAIN_DANCE),
     LEVEL_UP_END};
 
 static const u16 sHuntailLevelUpLearnset[] = {
