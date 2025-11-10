@@ -83,7 +83,7 @@ PokemonLeague_HallOfFame_EventScript_SetGameClearFlags::
 	clearflag FLAG_HIDE_LUGIA
 	setvar VAR_COMPLETED_HO_OH, 4
 	clearflag FLAG_HIDE_HO_OH
-	call_if_set FLAG_CAUGHT_RAIKOU, PokemonLeague_HallOfFame_EventScript_SpawnRoamers
+	call PokemonLeague_HallOfFame_EventScript_SpawnRoamers
 	call_if_ge VAR_SUICUNE_ENCOUNTERS, 8, PokemonLeague_HallOfFame_EventScript_SpawnSuicune
 	call_if_set FLAG_CAUGHT_CELEBI, PokemonLeague_HallOfFame_EventScript_SpawnSecondCelebi
 	clearflag FLAG_DEFEATED_MEW
@@ -95,6 +95,8 @@ PokemonLeague_HallOfFame_EventScript_SetGameClearFlags::
 	return
 
 PokemonLeague_HallOfFame_EventScript_SpawnRoamers::
+	clearflag FLAG_CAUGHT_ENTEI
+	clearflag FLAG_CAUGHT_RAIKOU
 	setvar VAR_0x8004, 1
 	special InitRoamer
 	return
