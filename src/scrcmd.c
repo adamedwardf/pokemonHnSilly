@@ -3255,9 +3255,9 @@ bool8 ScrCmd_givebp(struct ScriptContext *ctx)
     return FALSE;
 }
 
-bool8 ScrCmd_checknuzlocke(struct ScriptContext *ctx)
+bool8 ScrCmd_checknuzlocke(struct ScriptContext *ctx) //untested, unused
 {
-    if(gSaveBlock1Ptr->tx_Challenges_Nuzlocke==1){
+    if(gSaveBlock1Ptr->tx_Challenges_Nuzlocke>=1){
         gSpecialVar_Result = TRUE;
     }
     else
@@ -3269,7 +3269,21 @@ bool8 ScrCmd_checknuzlocke(struct ScriptContext *ctx)
 
 bool8 ScrCmd_checkrandomizer(struct ScriptContext *ctx)
 {
-    if(gSaveBlock1Ptr->tx_Random_Moves==1){
+    if((gSaveBlock1Ptr->tx_Random_Chaos) 
+        || (gSaveBlock1Ptr->tx_Random_WildPokemon) 
+        || (gSaveBlock1Ptr->tx_Random_Similar)
+        || (gSaveBlock1Ptr->tx_Random_MapBased) 
+        || (gSaveBlock1Ptr->tx_Random_IncludeLegendaries) 
+        || (gSaveBlock1Ptr->tx_Random_Type)
+        || (gSaveBlock1Ptr->tx_Random_TypeEffectiveness)
+        || (gSaveBlock1Ptr->tx_Random_Abilities) 
+        || (gSaveBlock1Ptr->tx_Random_Moves) 
+        || (gSaveBlock1Ptr->tx_Random_Trainer) 
+        || (gSaveBlock1Ptr->tx_Random_Evolutions) 
+        || (gSaveBlock1Ptr->tx_Random_EvolutionMethods)
+        || (gSaveBlock1Ptr->tx_Random_Items)
+        || (gSaveBlock1Ptr->tx_Random_Static) 
+        || (gSaveBlock1Ptr->tx_Random_Starter)){
         gSpecialVar_Result = TRUE;
     }
     else
