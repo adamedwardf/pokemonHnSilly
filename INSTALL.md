@@ -120,7 +120,7 @@ Otherwise, ask for help on Discord or IRC (see [README.md](README.md)), or conti
 ### Installing devkitARM
 Heart and Soul requires the installation of devkitARM65 in order to make successfully. 
 
-## devkitARM65 installation instructions (Debian, Ubuntu, wsl):
+#### devkitARM65 installation instructions (Debian, Ubuntu, wsl):
 
 1) Open your terminal and navigate to the folder you intend to clone pokemonHnS to.
 
