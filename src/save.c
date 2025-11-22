@@ -901,7 +901,7 @@ u8 LoadGameSave(u8 saveType)
     }
 
 #if !DEBUG
-    VarSet(VAR_DEBUG_OPTIONS, 0);
+    VarSet(VAR_DEBUG_OPTIONS, 1);
 #endif
 
     /* Apply any save modifications that need to be done between versions */
