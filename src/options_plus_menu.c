@@ -1082,7 +1082,7 @@ static void Task_OptionMenuProcessInput(u8 taskId)
     {
         if (VarGet(VAR_DEBUG_OPTIONS) == 1)
         {
-            VarSet(VAR_DEBUG_OPTIONS, 0);
+            VarSet(VAR_DEBUG_OPTIONS, 1);
             PlaySE(SE_PC_OFF);
         }
         else
