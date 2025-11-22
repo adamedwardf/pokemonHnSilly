@@ -63,8 +63,8 @@ Route13_Text_PokefanmJoshuaBeaten:
 
 Route13_Text_PokefanmJoshuaAfterBattle:
 	.string "You look like you have many\n"
-	.string "POKéMON,\p"
-	.string "but PIKACHU is still the best.$"
+	.string "POKéMON, but PIKACHU\l"
+	.string "is still the best.$"
 
 Route13_Text_BirdKeeperPerrySeen:
 	.string "Agility is the key attribute of\n"
@@ -79,7 +79,7 @@ Route13_Text_BirdKeeperPerryAfterBattle:
 
 Route13_Text_BirdKeeperBretSeen:
 	.string "Check out my POKéMON. Just look\n"
-	.string "at their coloring and their\n"
+	.string "at their coloring and their\l"
 	.string "plumage.$"
 
 Route13_Text_BirdKeeperBretBeaten:
